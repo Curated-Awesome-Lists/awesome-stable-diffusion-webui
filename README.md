@@ -1,142 +1,68 @@
-# Awesome Stable Diffusion WebUI Resources
+# Awesome sd-webui
 
-A curated list of awesome resources related to Stable Diffusion WebUI, a browser interface based on Gradio library for Stable Diffusion.
+[Automatic1111 (a1111) Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) serves as an interactive browser interface for Stable Diffusion, a generative model designed to create realistic images from textual or visual inputs. The interface, built on Gradio, simplifies the creation of web-based interaction for machine learning models.
 
-## Introduction
+With Stable Diffusion WebUI, users can explore a plethora of features such as:
 
-Stable Diffusion WebUI is a browser interface for Stable Diffusion, a generative model that can create realistic images from text or image inputs. It is based on Gradio, a library that allows you to create interactive web interfaces for your machine learning models.
-
-Stable Diffusion WebUI has many features, such as:
-
-- Original txt2img and img2img modes
-- One click install and run script (but you still must install python and git)
-- Outpainting
-- Inpainting
-- Color Sketch
-- Prompt Matrix
-- Stable Diffusion Upscale
-- Attention, specify parts of text that the model should pay more attention to
+* Traditional text-to-image and image-to-image modes
+* Easy installation and execution with a single-click script (requires python and git installation)
+* Outpainting for extending the content of an image outward
+* Inpainting for filling in gaps or missing parts within an image
+* Color Sketch for creating color-filled drafts
+* Prompt Matrix to facilitate efficient image generation
+* Stable Diffusion Upscale for enhancing image resolution
+* Attention feature to emphasize specific parts of the text that the model should prioritize
 
 
-## Content
+## Table of Contents
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Popular Plugins](#popular-plugins)
-- [Tools](#tools)
-- [Tutorials and Articles](#tutorials-and-articles)
-- [Videos](#videos)
-- [Community](#community)
-- [Contributing](#contributing)
+- [GitHub projects](#github-projects)
+- [YouTube videos](#youtube-videos)
 
+## GitHub projects
 
+- 🌟11597 [sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) - WebUI extension for ControlNet. Not directly related to the given keyword and description.
+- 🌟2242 [sd-webui-segment-anything](https://github.com/continue-revolution/sd-webui-segment-anything) - Segment Anything extension for Stable Diffusion WebUI, indirectly relevant to the given description.
+- 🌟1903 [sd-webui-deforum](https://github.com/deforum-art/sd-webui-deforum) - Deforum extension for AUTOMATIC1111's Stable Diffusion webui, which enhances your experience with the generative model.
+- 🌟1872 [a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete) - Booru style tag autocompletion extension for AUTOMATIC1111's Stable Diffusion web UI, improving usability.
+- 🌟1805 [sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) - Roop extension for StableDiffusion web-ui. Not directly related to the given keyword and description.
+- 🌟1373 [sd-webui-mov2mov](https://github.com/Scholar01/sd-webui-mov2mov) - Mov2mov plugin for Automatic1111/stable-diffusion-webui. The description is not well-formed but seems relevant.
+- 🌟1361 [sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks) - A repository with no description, cannot be considered relevant.
+- 🌟1288 [sd-webui-prompt-all-in-one](https://github.com/Physton/sd-webui-prompt-all-in-one) - An extension based on sd-webui aimed at improving the user experience of the prompt/negative prompt input box. Provides automatic translation, history record, and bookmarking functions.
+- 🌟1178 [sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib) - Depth map library for use with the Control Net extension for Automatic1111/stable-diffusion-webui. Not directly related to the given keyword and description.
+- 🌟1046 [sd-webui-lobe-theme](https://github.com/canisminor1990/sd-webui-lobe-theme) - Lobe theme for stable diffusion webui which provides an aesthetically pleasing interface in the legacy version, a.k.a kitchen theme.
+- 🌟984 [sd-webui-text2video](https://github.com/kabachuha/sd-webui-text2video): An Automatic1111 extension for implementing text2video diffusion models, such as ModelScope and VideoCrafter, using WebUI dependencies. Streamlines the integration of video-generation models with the existing UI.
+- 🌟732 [sd-webui-regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter): This extension allows you to set prompt regions within the Stable Diffusion WebUI, helping you make more detailed and localized modifications to images and data.
+- 🌟672 [a1111-sd-webui-lycoris](https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris): Adds support for Lycoris models to the Stable Diffusion WebUI, enabling users to work with a wider range of generative models and tools within the interface.
+- 🌟637 [sd-webui-stablesr](https://github.com/pkuliyi2015/sd-webui-stablesr): StableSR for Stable Diffusion WebUI is an ultra-high-quality image upscaler incorporated into the Automatic1111 interface. It enhances images and improves the overall results produced by generative models.
+- 🌟617 [sd-dynamic-thresholding](https://github.com/mcmonkeyprojects/sd-dynamic-thresholding): Dynamic Thresholding extension adds a CFG Scale Fix to the Stable Diffusion Auto WebUI, providing additional configuration options and control over image generation.
+- 🌟615 [DreamArtist-sd-webui-extension](https://github.com/7eu7d7/DreamArtist-sd-webui-extension): DreamArtist is a Stable-Diffusion-webui extension that introduces new artistic tools and functions into the existing WebUI, enhancing its capabilities and providing a more immersive experience.
+- 🌟606 [sd-webui-photopea-embed](https://github.com/yankooliveira/sd-webui-photopea-embed): A simple extension for Stable Diffusion WebUI that embeds the powerful Photopea image editor into the interface, allowing users to edit and manipulate images directly within the WebUI with ease.
+- [journey-ad/sd-webui-bilingual-localization](https://github.com/journey-ad/sd-webui-bilingual-localization) 💫 601 - Bilingual localization extensions for Stable Diffusion WebUI, provides English and Chinese translations for better user experience.
+- [OedoSoldier/sd-webui-image-sequence-toolkit](https://github.com/OedoSoldier/sd-webui-image-sequence-toolkit) 💫 531 - This extension enhances the functionalities of AUTOMATIC111's Stable Diffusion WebUI with additional tools for image sequence processing.
+- [hako-mikan/sd-webui-supermerger](https://github.com/hako-mikan/sd-webui-supermerger) 💫 447 - This extension adds model merging capabilities to the Stable Diffusion WebUI, allowing users to leverage multiple models simultaneously for better results.
+- [Uminosachi/sd-webui-inpaint-anything](https://github.com/Uminosachi/sd-webui-inpaint-anything) 💫 406 - Inpaint Anything is an extension for Stable Diffusion WebUI that allows users to inpaint images using masks generated by Segment Anything.
+- [zanllp/sd-webui-infinite-image-browsing](https://github.com/zanllp/sd-webui-infinite-image-browsing) 💫 363 - A fast and powerful image browser extension for Stable Diffusion WebUI, featuring infinite scrolling and joint search with image parameters for rapid exploration.
 
-## Installation
+## YouTube videos
 
-To install Stable Diffusion WebUI, you need to have Python 3.8 or higher and Git installed on your system. Then, you can follow these steps:
-
-1. Clone the GitHub repository: `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`
-2. Change directory to the cloned repository: `cd stable-diffusion-webui`
-3. Install the required dependencies: `pip install -r requirements.txt`
-4. Run the web interface: `python webui.py`
-
-Alternatively, you can use Docker to run Stable Diffusion WebUI without installing anything on your system. You can find the instructions on how to use Docker [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-and-run-on-NVidia-GPUs#docker).
-
-## Usage
-
-To use Stable Diffusion WebUI, you need to open a web browser and go to the URL that is displayed in the terminal after running the web interface. You will see a dashboard with different tabs for different modes of generation.
-
-You can choose between txt2img, img2img, outpainting, inpainting, color sketch, prompt matrix, and upscale modes. Each mode has different options and settings that you can adjust according to your preferences.
-
-You can also use the attention feature to specify parts of text that the model should pay more attention to by using parentheses and optional weights. For example:
-
-- `a man in a ((tuxedo))` - will pay more attention to tuxedo
-- `a man in a (tuxedo:1.21)` - alternative syntax with weight
-- select text and press Ctrl+Up or Ctrl+Down to automatically adjust attention to selected text
-
-You can find more details and examples on how to use each mode [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki).
-
-## Popular Plugins
-
-## Popular Plugins
-
-Stable Diffusion WebUI supports plugins that extend its functionality and add new features. Some of the popular plugins are:
-
-- [Stable Diffusion Variations](https://github.com/AUTOMATIC1111/stable-diffusion-variations) - A plugin that adds new models and options for Stable Diffusion WebUI, such as UNCLIP-H and UNCLIP-L models, image quality settings, and more.
-- [Stable Diffusion Extensions](https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master/extensions) - A plugin that adds new extensions for Stable Diffusion WebUI, such as image cropping, image rotation, image flipping, image resizing, image filters, and more.
-- [Stable Diffusion Embeddings](https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master/embeddings) - A plugin that adds new embeddings for Stable Diffusion WebUI, such as CLIP-RN50x4 text encoder, CLIP-RN50x16 text encoder, CLIP-ViT-B/32 text encoder, CLIP-ViT-B/16 text encoder, and more.
-- [Aesthetic Gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients) - A plugin that allows you to create an embedding from one or few pictures and use it to apply their style to generated images.
-- [Wildcards](https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards) - A plugin that allows you to use `__name__` syntax in your prompt to get a random line from a file named `name.txt` in the wildcards directory.
-- [Dynamic Prompts](https://github.com/adieyal/sd-dynamic-prompts) - A plugin that implements an expressive template language for random or combinatorial prompt generation along with features to support deep wildcard directory structures.
-- [Dreambooth](https://github.com/d8ahazard/sd_dreambooth_extension) - A plugin that adds a new mode for generating realistic portraits of people with various attributes and styles.
-- [Smart Process](https://github.com/d8ahazard/sd_smartprocess) - A plugin that adds a new option for processing images with different algorithms and parameters based on their content and quality.
-- [MultiDiffusion with Tiled VAE](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) - A plugin that adds a new mode for generating panoramic images with control using MultiDiffusion and tiled VAE optimization.
-- [Dump U-Net](https://github.com/hnmr293/stable-diffusion-webui-dumpunet) - A plugin that allows you to view different layers and feature maps of the U-Net model and generate images by giving different prompts for each block of the U-Net.
-- [Posex](https://github.com/hnmr293/posex) - A plugin that allows you to generate images for pose2image by moving the openpose figure in 3D space.
-- [LLuL](https://github.com/hnmr293/sd-webui-llul) - A plugin that allows you to target an area to selectively enhance details using local latent upscaling.
-- [CFG-Schedule-for-Automatic1111-SD](https://github.com/guzuligo/CFG-Schedule-for-Automatic1111-SD) - A plugin that allows you to dynamically control the CFG parameter during generation steps.
-- - [VRAM Estimator](https://github.com/space-nuko/a1111-stable-diffusion-webui-vram-estimator) - A plugin that runs txt2img, img2img, highres-fix at increasing dimensions and batch sizes until OOM, and outputs data to graph.
-- [Batch Face Swap](https://github.com/kex0/batch-face-swap) - A plugin that allows you to swap faces between multiple images using img2img mode.
-
-You can find more plugins and instructions on how to install and use them [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Plugins).
+- 📺 [😍SD Web UI Becomes Easier! Quick custom UI layout stable diffusion](https://www.youtube.com/watch?v=ceNJjNn1zKU) (4K views) - Learn how to set the UI appearance of the stable diffusion for Automatic1111 (a1111) Stable Diffusion WebUI. Customize the Gradio interface to better interact with generative models creating realistic images.
+- 📺 [How To Use SDXL in Automatic1111 Web UI - SD Web UI vs ComfyUI - Easy Local Install Tutorial / Guide](https://www.youtube.com/watch?v=eY_v5IR4dUQ) (11K views) - Discover the differences between SD Web UI and ComfyUI while learning how to install and use SDXL 1.0 with Automatic1111. Enhance your experience with a1111's interactive browser interface.
+- 📺 [A Web UI for Stable Diffusion [Dall E Replacement]](https://www.youtube.com/watch?v=vXrBTD8adW0) (7.1K views) - Install and use a self-hosted WebUI for Stable Diffusion as an alternative to Dall E. Follow the tutorial to create realistic images from textual or visual inputs using this interface.
+- 📺 [How to Install & Use Stable Diffusion on Windows](https://www.youtube.com/watch?v=onmqbI5XPH8) (633K views) - Comprehensively learn how to download, install, and operate Stable Diffusion on Windows. Generate realistic images from text descriptions using this powerful AI tool.
+- 📺 [POWERFUL Image Gen AI FREE | Complete Crash Course Stable Diffusion Web UI (AUTOMATIC1111)](https://www.youtube.com/watch?v=lc500CmPjkQ) (34K views) - A complete crash course on Stable Diffusion Web UI using Automatic1111 to create amazing images. Experience open-source, free-to-use technology that rivals paid software.
+- 🎥 [How To Install Stable Diffusion Web UI On Your Computer For Free - Create Insane Art In Seconds!](https://www.youtube.com/watch?v=bu2xwx-6JGk) (62K views) - This tutorial guides you through the process of installing Stable Diffusion WebUI on your computer, allowing you to create amazing art with text-to-image AI.
+- 🎥 [Install Automatic 1111 WITH automated Updates - super easy](https://www.youtube.com/watch?v=3cvP7yJotUM) (228K views) - This video shows you how to install and use Automatic 1111 Stable Diffusion and update it effortlessly using Git Pull.
+- 🎥 [CRAZY Themes 🎨 Stable Diffusion WebUI Skin/Theme | Full Guide | AUTOMATIC1111](https://www.youtube.com/watch?v=bNjgjsIUk1k) (6.5K views) - This guide covers themes and skins for Stable Diffusion WebUI. Customize your user interface with different styles and colors.
+- 🎥 [Stable Diffusion Webui + Segment Anything, new way to do inpainting](https://www.youtube.com/watch?v=ztGa_YHG16A) (2.2K views) - This video demonstrates how to use Stable Diffusion WebUI and Segment Anything extension for an efficient way to do inpainting.
+- 🎥 [Inpaint Anything in Stable Diffusion WebUI - Just 3 clicks!](https://www.youtube.com/watch?v=yDYhIuS8hJ4) (26K views) - Learn how to quickly inpaint anything using Stable Diffusion WebUI and Segment Anything extension with just a few clicks.
+- 🎥 [【擴充已改名SD WebUI Roop】Stable Diffusion 換臉教學 | 用FaceSwap擴充實現換臉](https://www.youtube.com/watch?v=yHxGUbNezkM) (2.6K views) - This tutorial explains how to use FaceSwap extension on Stable Diffusion WebUI Roop for fun and interesting face-swapping projects.
+- 🎥 [How to Install Stable Diffusion - automatic1111](https://www.youtube.com/watch?v=kqXpAKVQDNU) (136K views) - Learn the installation process of Stable Diffusion, an Automatic 1111 project, to access its powerful AI-driven creations.
+- 🎥 [Deforum Video Input Tutorial using SD WebuI](https://www.youtube.com/watch?v=EM1yoVh_q00) (20K views) - In this demo, discover how to use Deforum's video input option on Stable Diffusion WebUI for creating impressive AI art.
+- 🎥 [Introducing Stable Diffusion XL 0.9 txt2img AUTOMATIC1111 webui extension](https://www.youtube.com/watch?v=iF4w7gFDaYM) (18K views) - Explore the capabilities of the Stable Diffusion XL 0.9 txt2img extension for easy and accurate text-to-image conversions using Automatic 1111 WebUI.
+- 🎥 [Some Neat Extensions For Stable Diffusion UI](https://www.youtube.com/watch?v=IIfIPL9Dxas) (14K views) - Discover interesting extensions that can improve your experience with Stable Diffusion UI, and how to utilize them seamlessly.
 
 
+---
 
-## Tools
-
-Stable Diffusion WebUI also provides some tools that can help you with your image generation tasks. Some of the tools are:
-
-- [Image Gallery](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Image-Gallery) - A tool that allows you to save and view your generated images in a gallery.
-- [Image Editor](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Image-Editor) - A tool that allows you to edit your generated images with basic operations such as crop, rotate, flip, resize, filter, and more.
-- [Image Viewer](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Image-Viewer) - A tool that allows you to view your generated images in full screen mode with zoom and pan options.
-- [Image Downloader](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Image-Downloader) - A tool that allows you to download your generated images in different formats and sizes.
-
-You can find more tools and instructions on how to use them [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Tools).
-
-## Tutorials and Articles
-
-Stable Diffusion WebUI is a powerful and versatile tool for generating images with Stable Diffusion. However, it can also be challenging to master and use effectively. Fortunately, there are many tutorials and articles that can help you learn how to use Stable Diffusion WebUI and improve your skills. Some of them are:
-
-- [How to Run Stable Diffusion Locally With a GUI on Windows](https://www.howtogeek.com/832491/how-to-run-stable-diffusion-locally-with-a-gui-on-windows/) - A step-by-step guide on how to install and run Stable Diffusion WebUI on Windows using Python and Git.
-- [Stable Diffusion Art - tutorials, prompts, resources](https://stable-diffusion-art.com/) - A website dedicated to helping you master Stable Diffusion WebUI, by providing easy-to-follow tutorials and useful resources.
-- [Stable Diffusion: Tutorials, Resources, and Tools](https://stackdiary.com/stable-diffusion-resources/) - A comprehensive reference to everything related to Stable Diffusion, including tools, tutorials, and numerous resources for styles.
-- [How to Write an Awesome Stable Diffusion Prompt](https://www.howtogeek.com/833169/how-to-write-an-awesome-stable-diffusion-prompt/) - A guide on how to craft effective text prompts for Stable Diffusion WebUI and get ideal results.
-
-You can also find more tutorials and articles on the [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki) of Stable Diffusion WebUI.
-
-## Videos
-
-Stable Diffusion WebUI is a visual and interactive way to generate images with Stable Diffusion. However, sometimes it can be helpful to watch someone else use it and explain how it works. Fortunately, there are many videos that can show you how to use Stable Diffusion WebUI and demonstrate its capabilities. Some of them are:
-
-- [How to Use Stable Diffusion to Make AI GIFs and Videos](https://www.howtogeek.com/872921/how-to-use-stable-diffusion-to-make-ai-gifs-and-videos/) - A video tutorial on how to use Inpaint and Deforum extensions to create animations with Stable Diffusion WebUI.
-- [Guide to making Stable Diffusion Img2Img Videos](https://www.youtube.com/watch?v=PddIlnAdv68) - A video guide on how to use FFMPEG and batch processing to create stylized videos with Stable Diffusion WebUI.
-- [How to run Stable Diffusion to make awesome AI-generated art](https://www.digitaltrends.com/computing/how-to-run-stable-diffusion/) - A video overview on how to install and run Stable Diffusion WebUI on Windows, Mac, or Google Colab.
-
-You can also find more videos on the [wiki](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki) of Stable Diffusion WebUI.
-
-
-
-## Community
-
-Stable Diffusion WebUI has a vibrant and friendly community of users and developers who are passionate about image generation and Stable Diffusion. You can join the community and interact with them on various platforms, such as:
-
-- [Discord](https://discord.gg/8QJ2qfZ) - A chat platform where you can ask questions, share your creations, get feedback, and chat with other users and developers of Stable Diffusion WebUI.
-- [Reddit](https://www.reddit.com/r/StableDiffusion/) - A forum platform where you can post your creations, discuss topics, and vote on other posts related to Stable Diffusion WebUI.
-- [Twitter](https://twitter.com/StableDiffusion) - A social media platform where you can follow the latest news, updates, and announcements about Stable Diffusion WebUI.
-
-You can also find more community resources and links [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Community).
-
-
-## Contributing
-
-Our repo is a curated list of awesome resources related to Stable Diffusion WebUI. We welcome contributions from anyone who is interested in expanding and improving our list. You can contribute in various ways, such as:
-
-- Adding new resources to the list
-- Updating existing resources with new information
-- Sorting and organizing the list by categories and popularity
-- Writing summaries and reviews for the resources
-- Checking the validity and quality of the resources
-
-You can find more information on how to contribute and the guidelines to follow [here](https://replo.io/our-repo/CONTRIBUTING.md).
-
+This initial version of the Awesome List was generated with the help of the [Awesome List Generator](https://github.com/alialsaeedi19/GPT-Awesome-List-Maker). It's an open-source Python package that uses the power of GPT models to automatically curate and generate starting points for resource lists related to a specific topic. 
